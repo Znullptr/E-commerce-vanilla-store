@@ -1,0 +1,207 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  body{
+    background:linear-gradient(#200016,#10001f);
+    height:100vh;
+    font-family:system-ui;
+  }
+  header a{
+    text-decoration:none;
+    color:white;
+  
+    }
+    header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+      margin:30px;
+      height:60px;
+      width: 95%;
+      
+  
+    }
+    header .logo{
+      font-size: 30px;
+      text-transform: uppercase;
+  
+  
+    }
+    header ul{
+      display:flex;
+      justify-content: center;
+      align-items:center;
+      list-style: none;
+  
+    }
+    header ul li{
+      margin-right:30px;
+    }
+    header ul li a{
+      padding: 6px 15px;
+      border-radius: 20px;
+    }
+    header ul li a:hover , .active{
+      background-color: white;
+      color:#200016;
+    }
+
+    main{
+        color: black;
+        width: 96%;
+        margin-left: 0px;
+        margin-top: 5px;
+        height: fit-content;
+        padding:20px;
+        display: flex;
+        flex-direction: row;
+        background:linear-gradient(#200016,#eaeaea);
+        }
+
+    .container{
+
+        background-color: #f1f1f1;
+        margin-top: 20px;
+        height: fit-content;
+        width: 75%;
+        padding: 20px;
+    }
+
+  small{
+      
+      margin-left: 95%;
+  }
+  .container ul{
+    list-style: none;
+
+    
+  }
+
+  li img{
+    height: 150px;
+    width: 200px; 
+    margin-top: 30px;
+    object-fit: contain;
+  }
+
+  .description{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 500px;
+  }
+
+  .quantity{
+    color: black;
+    padding-left: 20px;
+    font-variant:inherit;
+    border: 2px solid rgba(131, 129, 129, 0.185) ;
+    font-size: 15px; 
+    height: 22px;
+    padding:10px 8px 10px 10px;
+    background-color:rgb(243, 240, 240);
+    border-radius: 5px;
+    
+  }
+  .quantity input[type="number"] {
+    border: none;
+    font-size: 15px; 
+    width: 200px;
+    height:30px;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: rgb(243, 240, 240);
+    
+
+
+  }
+
+  .description b
+  {
+font-size: 12px;
+color: gray;
+  }
+  .stock{
+    color: green;
+    font-size: small;
+  }
+
+  .gift{
+    display: inline-block;
+    font-size: small;
+  }
+  .gift a{
+    text-decoration: none;
+    color:rgb(11, 119, 190);
+  }
+  .price{
+    margin-left: 0px;
+    margin-top: 30px;
+  
+    
+  }
+  .price b{
+    margin-left: 82%;
+  }
+  .price input[type="button"]
+  {
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin-top: 62px;
+    margin-right: 100px;
+    background-color: red;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  .price input[type="button"]:hover{
+    background-color: rgba(241, 23, 23, 0.918);
+  }
+
+  .payment{
+   background-color:#f1f1f1;
+   margin-top: 20px;
+   width: 250px;
+   margin-left: 20px;
+   height: 150px;
+   padding: 20px 10px 10px 10px;
+   font-family:auto;
+   
+   
+  }
+
+ .subtotal{
+
+font-size: 18px;
+margin-bottom: 10px;
+
+
+ }
+
+ .purchase{
+ height: 35px;
+ width: 250px;
+ color: white;
+ background: linear-gradient(#200016,#10001f);
+ border-radius: 5px;
+font-size: 15px;
+cursor: pointer;
+
+ }
+
+ .purchase:hover{
+   color: gold;
+ }
+
+ h3 a{
+   text-decoration: none;
+   color: black;
+ }
+
+ h3 a:hover{
+   color: orangered;
+ }

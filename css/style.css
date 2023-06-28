@@ -1,0 +1,38 @@
+div{
+    background: linear-gradient(to bottom,#eaeaea73,#eaeaea69);
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    margin-left: 25%;
+  
+   
+  }
+  legend
+  {
+    background-color: #a0a7a2c4;
+    color: white;
+    font-size: 22px;
+    font-family: system-ui;
+    border-radius: 5px;
+    padding: 9px;
+    width: 160px;
+    
+    
+  }
+  input
+  {
+    
+    margin-bottom:12px;
+     width:150px;
+     height: 30px;
+     border-radius: 5px;
+  
+  }
+  fieldset
+  {
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
